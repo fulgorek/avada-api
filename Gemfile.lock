@@ -116,7 +116,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  active_model_serializers
+  active_model_serializers (~> 0.10.2)
   faker (~> 1.6.5)
   nifty-generators
   rails (= 4.2.6)
