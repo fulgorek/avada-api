@@ -11,6 +11,11 @@ gem 'sqlite3'
 
 gem 'active_model_serializers'
 
+
+group :development do
+  gem 'nifty-generators'
+end
+
 group :test, :development do
   gem 'faker', '~> 1.6.5'
 end
