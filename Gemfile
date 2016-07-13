@@ -11,6 +11,8 @@ gem 'sqlite3'
 
 gem 'active_model_serializers', '~>0.10.2'
 
+gem 'validate_url'
+
 
 group :development do
   gem 'nifty-generators'
