@@ -1,3 +1,3 @@
 class VideoSerializer < ActiveModel::Serializer
-  attributes :id, :title, :desc, :hidden
+  attributes :id, :title, :desc, :url
 end

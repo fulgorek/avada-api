@@ -4,7 +4,7 @@ class VideosController < ApplicationController
   # GET /videos
   # GET /videos.json
   def index
-    @videos = Video.all
+    @videos = Video.all.where(hidden: false)
 
     render json: @videos
   end
@@ -54,6 +54,6 @@ class VideosController < ApplicationController
     end
 
     def video_params
-      params.require(:video).permit(:title, :desc)
+      params.require(:video).permit(:title, :desc, :url)
     end
 end
